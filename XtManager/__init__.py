@@ -226,8 +226,8 @@ loop.run_until_complete(
 # <=======================================================================================================>
 
 # <=============================================== CLIENT SETUP ========================================================>
-# Create the Mikobot and TelegramClient instances
-app = Client("Mikobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+# Create the XtManager and TelegramClient instances
+app = Client("XtManager", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 tbot = TelegramClient(MemorySession(), API_ID, API_HASH)
 # <=======================================================================================================>
 

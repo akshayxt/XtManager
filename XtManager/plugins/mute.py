@@ -8,15 +8,15 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, ContextTypes
 from telegram.helpers import mention_html
 
-from Mikobot import LOGGER, function
-from Mikobot.plugins.helper_funcs.chat_status import (
+from XtManager import LOGGER, function
+from XtManager.plugins.helper_funcs.chat_status import (
     check_admin,
     connection_status,
     is_user_admin,
 )
-from Mikobot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import loggable
+from XtManager.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
+from XtManager.plugins.helper_funcs.string_handling import extract_time
+from XtManager.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 

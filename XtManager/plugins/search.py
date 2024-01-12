@@ -10,8 +10,8 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
 
-from Mikobot import app
-from Mikobot.state import state
+from XtManager import app
+from XtManager.state import state
 
 # <=======================================================================================================>
 

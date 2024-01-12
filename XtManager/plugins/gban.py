@@ -12,7 +12,7 @@ from telegram.helpers import mention_html
 
 import Database.sql.global_bans_sql as sql
 from Database.sql.users_sql import get_user_com_chats
-from Mikobot import (
+from XtManager import (
     DEV_USERS,
     DRAGONS,
     EVENT_LOGS,
@@ -22,13 +22,13 @@ from Mikobot import (
     dispatcher,
     function,
 )
-from Mikobot.plugins.helper_funcs.chat_status import (
+from XtManager.plugins.helper_funcs.chat_status import (
     check_admin,
     is_user_admin,
     support_plus,
 )
-from Mikobot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
-from Mikobot.plugins.helper_funcs.misc import send_to_list
+from XtManager.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
+from XtManager.plugins.helper_funcs.misc import send_to_list
 
 # <=======================================================================================================>
 

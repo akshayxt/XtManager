@@ -12,16 +12,16 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes, filters
 from telegram.helpers import mention_html
 
-from Mikobot import DRAGONS, function
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.alternate import send_message
-from Mikobot.plugins.helper_funcs.chat_status import (
+from XtManager import DRAGONS, function
+from XtManager.plugins.disable import DisableAbleCommandHandler
+from XtManager.plugins.helper_funcs.alternate import send_message
+from XtManager.plugins.helper_funcs.chat_status import (
     ADMIN_CACHE,
     check_admin,
     connection_status,
 )
-from Mikobot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
-from Mikobot.plugins.log_channel import loggable
+from XtManager.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
+from XtManager.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 

@@ -15,12 +15,12 @@ from telegram.helpers import mention_html
 
 from Database.sql import antiflood_sql as sql
 from Database.sql.approve_sql import is_approved
-from Mikobot import dispatcher, function
-from Mikobot.plugins.connection import connected
-from Mikobot.plugins.helper_funcs.alternate import send_message
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, is_user_admin
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import loggable
+from XtManager import dispatcher, function
+from XtManager.plugins.connection import connected
+from XtManager.plugins.helper_funcs.alternate import send_message
+from XtManager.plugins.helper_funcs.chat_status import check_admin, is_user_admin
+from XtManager.plugins.helper_funcs.string_handling import extract_time
+from XtManager.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 

@@ -6,8 +6,8 @@ from PIL import Image
 from pyrogram import filters
 from telegraph import Telegraph, exceptions, upload_file
 
-from Mikobot import app
-from Mikobot.utils.errors import capture_err
+from XtManager import app
+from XtManager.utils.errors import capture_err
 
 # <=======================================================================================================>
 

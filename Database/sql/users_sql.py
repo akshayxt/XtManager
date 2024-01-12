@@ -12,7 +12,7 @@ from sqlalchemy import (
 )
 
 from Database.sql import BASE, SESSION
-from Mikobot import dispatcher
+from XtManager import dispatcher
 
 
 class Users(BASE):

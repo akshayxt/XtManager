@@ -1,6 +1,6 @@
 FROM python:3.11.6
 
-WORKDIR /root/Mikobot
+WORKDIR /root/XtManager
 
 COPY . .
 
@@ -9,4 +9,4 @@ RUN pip3 install --upgrade pip setuptools
 
 RUN pip install -U -r requirements.txt
 
-CMD python3 -m Mikobot
+CMD python3 -m XtManager

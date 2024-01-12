@@ -7,7 +7,7 @@ from typing import List
 from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
-from Mikobot.utils.parser import escape_markdown
+from XtManager.utils.parser import escape_markdown
 
 TIME_ZONE = "Asia/Kolkata"
 BTN_URL_REGEX = compile_re(r"(\[([^\[]+?)\]\(buttonurl:(?:/{0,2})(.+?)(:same)?\))")

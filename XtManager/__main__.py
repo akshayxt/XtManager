@@ -38,7 +38,7 @@ from telegram.helpers import escape_markdown
 
 import Database.sql.users_sql as sql
 from Infamous.karma import *
-from Mikobot import (
+from XtManager import (
     BOT_NAME,
     LOGGER,
     OWNER_ID,
@@ -51,9 +51,9 @@ from Mikobot import (
     loop,
     tbot,
 )
-from Mikobot.plugins import ALL_MODULES
-from Mikobot.plugins.helper_funcs.chat_status import is_user_admin
-from Mikobot.plugins.helper_funcs.misc import paginate_modules
+from XtManager.plugins import ALL_MODULES
+from XtManager.plugins.helper_funcs.chat_status import is_user_admin
+from XtManager.plugins.helper_funcs.misc import paginate_modules
 
 # <=======================================================================================================>
 
@@ -159,7 +159,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("Mikobot.plugins." + module_name)
+    imported_module = importlib.import_module("XtManager.plugins." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -779,7 +779,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("Mikobot is starting >> Using long polling.")
+    LOGGER.info("XtManager is starting >> Using long polling.")
     dispatcher.run_polling(timeout=15, drop_pending_updates=True)
 
 

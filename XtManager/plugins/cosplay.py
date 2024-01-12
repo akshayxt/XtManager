@@ -7,8 +7,8 @@
 from telegram import Update
 from telegram.ext import CommandHandler, ContextTypes
 
-from Mikobot import function
-from Mikobot.state import state
+from XtManager import function
+from XtManager.state import state
 
 # <=======================================================================================================>
 

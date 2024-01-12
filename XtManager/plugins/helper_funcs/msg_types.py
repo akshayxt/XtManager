@@ -3,7 +3,7 @@ from enum import IntEnum, unique
 
 from telegram import Message
 
-from Mikobot.plugins.helper_funcs.string_handling import button_markdown_parser
+from XtManager.plugins.helper_funcs.string_handling import button_markdown_parser
 
 # <=======================================================================================================>
 

@@ -4,10 +4,10 @@ from os import remove
 from pyrogram import filters
 
 from Database.mongodb.toggle_mongo import is_nsfw_on, nsfw_off, nsfw_on
-from Mikobot import BOT_USERNAME, DRAGONS, app
-from Mikobot.state import arq
-from Mikobot.utils.can_restrict import can_restrict
-from Mikobot.utils.errors import capture_err
+from XtManager import BOT_USERNAME, DRAGONS, app
+from XtManager.state import arq
+from XtManager.utils.can_restrict import can_restrict
+from XtManager.utils.errors import capture_err
 
 # <=======================================================================================================>
 

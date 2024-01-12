@@ -10,7 +10,7 @@ from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import CommandHandler, ContextTypes
 
-from Mikobot import function
+from XtManager import function
 
 # <=======================================================================================================>
 

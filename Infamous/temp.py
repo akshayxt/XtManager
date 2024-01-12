@@ -13,7 +13,7 @@ from pyrogram.errors import (
 )
 from pyrogram.types import Message
 
-from Mikobot import DB_NAME, MONGO_DB_URI
+from XtManager import DB_NAME, MONGO_DB_URI
 
 client = MongoClient(MONGO_DB_URI)
 dbname = client[DB_NAME]

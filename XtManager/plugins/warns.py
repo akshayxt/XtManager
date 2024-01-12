@@ -28,18 +28,18 @@ from telegram.helpers import mention_html
 
 from Database.sql import warns_sql as sql
 from Database.sql.approve_sql import is_approved
-from Mikobot import dispatcher, function
-from Mikobot.utils.can_restrict import BAN_STICKER
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, is_user_admin
-from Mikobot.plugins.helper_funcs.extraction import (
+from XtManager import dispatcher, function
+from XtManager.utils.can_restrict import BAN_STICKER
+from XtManager.plugins.disable import DisableAbleCommandHandler
+from XtManager.plugins.helper_funcs.chat_status import check_admin, is_user_admin
+from XtManager.plugins.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from Mikobot.plugins.helper_funcs.misc import split_message
-from Mikobot.plugins.helper_funcs.string_handling import split_quotes
-from Mikobot.plugins.log_channel import loggable
+from XtManager.plugins.helper_funcs.misc import split_message
+from XtManager.plugins.helper_funcs.string_handling import split_quotes
+from XtManager.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 

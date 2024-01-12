@@ -5,7 +5,7 @@ from typing import Union
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
 from Database.sql import BASE, SESSION
-from Mikobot.plugins.helper_funcs.msg_types import Types
+from XtManager.plugins.helper_funcs.msg_types import Types
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing you!"

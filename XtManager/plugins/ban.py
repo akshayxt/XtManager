@@ -12,10 +12,10 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes, filters
 from telegram.helpers import mention_html
 
-from Mikobot import DEV_USERS, DRAGONS, LOGGER, OWNER_ID, function
-from Mikobot.utils.can_restrict import BAN_STICKER
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import (
+from XtManager import DEV_USERS, DRAGONS, LOGGER, OWNER_ID, function
+from XtManager.utils.can_restrict import BAN_STICKER
+from XtManager.plugins.disable import DisableAbleCommandHandler
+from XtManager.plugins.helper_funcs.chat_status import (
     can_delete,
     check_admin,
     connection_status,
@@ -23,10 +23,10 @@ from Mikobot.plugins.helper_funcs.chat_status import (
     is_user_ban_protected,
     is_user_in_chat,
 )
-from Mikobot.plugins.helper_funcs.extraction import extract_user_and_text
-from Mikobot.plugins.helper_funcs.misc import mention_username
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import gloggable, loggable
+from XtManager.plugins.helper_funcs.extraction import extract_user_and_text
+from XtManager.plugins.helper_funcs.misc import mention_username
+from XtManager.plugins.helper_funcs.string_handling import extract_time
+from XtManager.plugins.log_channel import gloggable, loggable
 
 # <=======================================================================================================>
 

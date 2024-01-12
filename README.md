@@ -60,7 +60,7 @@ vi variables.py           # 6. Modify Variables
 
 sudo apt install tmux && tmux           # 7. Install Tmux (Optional)
 
-python3 -m Mikobot         # 8. Run the Bot
+python3 -m XtManager         # 8. Run the Bot
 # Press `Ctrl+b` and then `d` to exit Tmux Session
 ```
 ━━━━━━━━━━━━━━━━━━━━

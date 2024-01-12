@@ -4,7 +4,7 @@ from typing import Callable
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import Message
 
-from Mikobot import DEV_USERS, app
+from XtManager import DEV_USERS, app
 
 # <=======================================================================================================>
 BAN_STICKER = "CAACAgUAAxkBAAEGWC5lloYv1tiI3-KPguoH5YX-RveWugACoQ4AAi4b2FQGdUhawbi91DQE"

@@ -1,6 +1,6 @@
 # Session files , logs
-Mikobot/*.session
-Mikobot/*.session-journal
+XtManager/*.session
+XtManager/*.session-journal
 Logs.txt
 
 # Byte-compiled / optimized / DLL files

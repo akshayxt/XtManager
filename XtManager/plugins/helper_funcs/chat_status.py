@@ -9,7 +9,7 @@ from telegram.constants import ChatMemberStatus, ChatType
 from telegram.error import Forbidden
 from telegram.ext import ContextTypes
 
-from Mikobot import DEL_CMDS, DEV_USERS, DRAGONS, SUPPORT_CHAT, dispatcher
+from XtManager import DEL_CMDS, DEV_USERS, DRAGONS, SUPPORT_CHAT, dispatcher
 
 # <=======================================================================================================>
 
@@ -409,7 +409,7 @@ def connection_status(func):
 
 # <=======================================================================================================>
 # Workaround for circular import with connection.py
-from Mikobot.plugins import connection
+from XtManager.plugins import connection
 
 connected = connection.connected
 # <================================================ END =======================================================>

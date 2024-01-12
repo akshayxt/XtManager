@@ -5,7 +5,7 @@ from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Forbidden
 
 from Database.sql import BASE, SESSION
-from Mikobot import dispatcher
+from XtManager import dispatcher
 
 
 class Federations(BASE):

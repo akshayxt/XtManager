@@ -37,8 +37,8 @@ from pyrogram.types import (
     Message,
 )
 
-from Mikobot import BOT_USERNAME, MESSAGE_DUMP, MONGO_DB_URI, app
-from Mikobot.utils.custom_filters import PREFIX_HANDLER
+from XtManager import BOT_USERNAME, MESSAGE_DUMP, MONGO_DB_URI, app
+from XtManager.utils.custom_filters import PREFIX_HANDLER
 
 # <=======================================================================================================>
 
@@ -48,7 +48,7 @@ BOT_OWNER = list({int(x) for x in ("5907205317").split()})
 
 _MGCLIENT: AgnosticClient = AsyncIOMotorClient(MONGO_DB_URI)
 
-_DATABASE: AgnosticDatabase = _MGCLIENT["MikobotAnime"]
+_DATABASE: AgnosticDatabase = _MGCLIENT["XtManagerAnime"]
 
 
 def get_collection(name: str) -> AgnosticCollection:
@@ -82,7 +82,7 @@ no_pic = [
 ]
 
 
-DOWN_PATH = "Mikobot/downloads/"
+DOWN_PATH = "XtManager/downloads/"
 
 AUTH_USERS = get_collection("AUTH_USERS")
 IGNORE = get_collection("IGNORED_USERS")
@@ -438,7 +438,7 @@ def control_user(func):
                 gidtitle = msg["chat"]["title"]
             await GROUPS.insert_one({"_id": gid, "grp": gidtitle})
             await clog(
-                "Mikobot",
+                "XtManager",
                 f"Bot added to a new group\n\n{gidtitle}\nID: `{gid}`",
                 "NEW_GROUP",
             )
@@ -458,7 +458,7 @@ def control_user(func):
                         await message.reply_text(
                             ("Stop spamming bot!!!" + "\nElse you will be blacklisted"),
                         )
-                        await clog("Mikobot", f"UserID: {user}", "SPAM")
+                        await clog("XtManager", f"UserID: {user}", "SPAM")
                     if USER_WC[user] == 5:
                         await IGNORE.insert_one({"_id": user})
                         await message.reply_text(
@@ -469,7 +469,7 @@ def control_user(func):
                                 + "@ProjectCodeXSupport"
                             )
                         )
-                        await clog("Mikobot", f"UserID: {user}", "BAN")
+                        await clog("XtManager", f"UserID: {user}", "BAN")
                         return
                     await asyncio.sleep(USER_WC[user])
                 else:
@@ -490,14 +490,14 @@ def control_user(func):
                 reply_msg = message.reply_to_message
             try:
                 await clog(
-                    "Mikobot",
+                    "XtManager",
                     "Message:\n" + msg["text"] + "\n\n" + "```" + e + "```",
                     "COMMAND",
                     msg=message,
                     replied=reply_msg,
                 )
             except Exception:
-                await clog("Mikobot", e, "FAILURE", msg=message)
+                await clog("XtManager", e, "FAILURE", msg=message)
 
     return wrapper
 
@@ -527,7 +527,7 @@ def check_user(func):
                             ("Stop spamming bot!!!\n" + "Else you will be blacklisted"),
                             show_alert=True,
                         )
-                        await clog("Mikobot", f"UserID: {user}", "SPAM")
+                        await clog("XtManager", f"UserID: {user}", "SPAM")
                 except KeyError:
                     pass
                 USER_JSON[user] = nt
@@ -544,14 +544,14 @@ def check_user(func):
                     reply_msg = c_q.message.reply_to_message
                 try:
                     await clog(
-                        "Mikobot",
+                        "XtManager",
                         "Callback:\n" + cq["data"] + "\n\n" + "```" + e + "```",
                         "CALLBACK",
                         cq=c_q,
                         replied=reply_msg,
                     )
                 except Exception:
-                    await clog("Mikobot", e, "FAILURE", cq=c_q)
+                    await clog("XtManager", e, "FAILURE", cq=c_q)
         else:
             if cqowner_is_ch:
                 if user_valid:
@@ -568,14 +568,14 @@ def check_user(func):
                             reply_msg = c_q.message.reply_to_message
                         try:
                             await clog(
-                                "Mikobot",
+                                "XtManager",
                                 "Callback:\n" + cq["data"] + "\n\n" + "```" + e + "```",
                                 "CALLBACK_ANON",
                                 cq=c_q,
                                 replied=reply_msg,
                             )
                         except Exception:
-                            await clog("Mikobot", e, "FAILURE", cq=c_q)
+                            await clog("XtManager", e, "FAILURE", cq=c_q)
                 else:
                     await c_q.answer(
                         (
@@ -3137,7 +3137,7 @@ example: /anime Sword Art Online"""
     try:
         await client.send_photo(gid, title_img, caption=finals_, reply_markup=buttons)
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", title_img, "LINK", msg=message)
+        await clog("XtManager", title_img, "LINK", msg=message)
         await client.send_photo(gid, failed_pic, caption=finals_, reply_markup=buttons)
 
 
@@ -3207,7 +3207,7 @@ example: /manga Sword Art Online"""
     try:
         await client.send_photo(gid, pic, caption=finals_, reply_markup=buttons)
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=message)
+        await clog("XtManager", pic, "LINK", msg=message)
         await client.send_photo(gid, failed_pic, caption=finals_, reply_markup=buttons)
 
 
@@ -3257,7 +3257,7 @@ async def character_cmd(client: Client, message: Message, mdata: dict):
     try:
         await client.send_photo(gid, img, caption=cap_text, reply_markup=buttons)
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", img, "LINK", msg=message)
+        await clog("XtManager", img, "LINK", msg=message)
         await client.send_photo(gid, failed_pic, caption=cap_text, reply_markup=buttons)
 
 
@@ -3324,7 +3324,7 @@ async def anilist_cmd(client: Client, message: Message, mdata: dict):
     try:
         await client.send_photo(gid, pic, caption=msg, reply_markup=buttons)
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=message)
+        await clog("XtManager", pic, "LINK", msg=message)
         await client.send_photo(gid, failed_pic, caption=msg, reply_markup=buttons)
 
 
@@ -3460,7 +3460,7 @@ example: /airing Sword Art Online"""
     try:
         await client.send_photo(gid, coverImg, caption=out, reply_markup=btn)
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", coverImg, "LINK", msg=message)
+        await clog("XtManager", coverImg, "LINK", msg=message)
         await client.send_photo(gid, failed_pic, caption=out, reply_markup=btn)
 
 
@@ -3680,7 +3680,7 @@ This material is marked 18+ and not allowed in this group""",
             InputMediaPhoto(pic, caption=msg), reply_markup=button
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg), reply_markup=button
         )
@@ -3747,7 +3747,7 @@ async def anime_btn(client: Client, cq: CallbackQuery, cdata: dict):
             InputMediaPhoto(pic, caption=msg), reply_markup=btns
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg), reply_markup=btns
         )
@@ -3867,7 +3867,7 @@ async def flex_btn(client: Client, cq: CallbackQuery, cdata: dict):
             InputMediaPhoto(pic, caption=msg), reply_markup=btns
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg), reply_markup=btns
         )
@@ -3907,7 +3907,7 @@ async def list_favourites_btn(client: Client, cq: CallbackQuery, cdata: dict):
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
         await clog(
-            "Mikobot",
+            "XtManager",
             f"https://img.anili.st/user/{q[1]}?a={time.time()}",
             "LINK",
             msg=cq,
@@ -3935,7 +3935,7 @@ async def favourites_btn(client: Client, cq: CallbackQuery, cdata: dict):
             InputMediaPhoto(pic, caption=msg), reply_markup=btns
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg), reply_markup=btns
         )
@@ -3957,7 +3957,7 @@ async def get_user_back_btn(client: Client, cq: CallbackQuery, cdata: dict):
             InputMediaPhoto(pic, caption=msg), reply_markup=btns
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg), creply_markup=btns
         )
@@ -4058,7 +4058,7 @@ async def toggle_favourites_btn(client: Client, cq: CallbackQuery, cdata: dict):
             InputMediaPhoto(pic, caption=msg), reply_markup=btns
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg), reply_markup=btns
         )
@@ -4251,7 +4251,7 @@ async def update_anilist_btn(client: Client, cq: CallbackQuery, cdata: dict):
             InputMediaPhoto(pic, caption=msg), reply_markup=btns
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg), reply_markup=btns
         )
@@ -4339,7 +4339,7 @@ async def additional_info_btn(client: Client, cq: CallbackQuery, cdata: dict):
             InputMediaPhoto(pic, caption=msg), reply_markup=InlineKeyboardMarkup(button)
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg),
             reply_markup=InlineKeyboardMarkup(button),
@@ -4392,7 +4392,7 @@ async def featured_in_btn(client: Client, cq: CallbackQuery, cdata: dict):
             InputMediaPhoto(pic, caption=msg), reply_markup=InlineKeyboardMarkup(button)
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg),
             reply_markup=InlineKeyboardMarkup(button),
@@ -4449,7 +4449,7 @@ async def featured_in_switch_btn(client: Client, cq: CallbackQuery, cdata: dict)
             InputMediaPhoto(pic, caption=msg), reply_markup=InlineKeyboardMarkup(button)
         )
     except (WebpageMediaEmpty, WebpageCurlFailed):
-        await clog("Mikobot", pic, "LINK", msg=cq)
+        await clog("XtManager", pic, "LINK", msg=cq)
         await cq.edit_message_media(
             InputMediaPhoto(failed_pic, caption=msg),
             reply_markup=InlineKeyboardMarkup(button),
@@ -5112,7 +5112,7 @@ QUOTES_IMG = [
 __help__ = """
 ⛩ *Anime:*
 
-➠ *Mikobot provides you the best anime-based commands including anime news and much more!*
+➠ *XtManager provides you the best anime-based commands including anime news and much more!*
 
 ➠ *Commands:*
 

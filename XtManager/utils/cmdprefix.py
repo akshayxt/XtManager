@@ -1,4 +1,4 @@
-from Mikobot import ALLOW_EXCL
+from XtManager import ALLOW_EXCL
 
 if ALLOW_EXCL:
     CMD_STARTERS = (

@@ -8,7 +8,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery
 from pyrogram.types.messages_and_media.message import Message
 
-from Mikobot import LOGGER
+from XtManager import LOGGER
 
 THREAD_LOCK = RLock()
 

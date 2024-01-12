@@ -8,15 +8,15 @@ from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import mention_html, mention_markdown
 
 import Database.sql.blsticker_sql as sql
-from Mikobot import LOGGER, dispatcher
-from Mikobot.plugins.connection import connected
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.alternate import send_message
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, user_not_admin
-from Mikobot.plugins.helper_funcs.misc import split_message
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import loggable
-from Mikobot.plugins.warns import warn
+from XtManager import LOGGER, dispatcher
+from XtManager.plugins.connection import connected
+from XtManager.plugins.disable import DisableAbleCommandHandler
+from XtManager.plugins.helper_funcs.alternate import send_message
+from XtManager.plugins.helper_funcs.chat_status import check_admin, user_not_admin
+from XtManager.plugins.helper_funcs.misc import split_message
+from XtManager.plugins.helper_funcs.string_handling import extract_time
+from XtManager.plugins.log_channel import loggable
+from XtManager.plugins.warns import warn
 
 # <=======================================================================================================>
 

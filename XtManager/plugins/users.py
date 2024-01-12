@@ -14,7 +14,7 @@ from telegram.helpers import escape_markdown
 
 import Database.sql.users_sql as sql
 from Database.sql.users_sql import get_all_users
-from Mikobot import DEV_USERS, LOGGER, OWNER_ID, app, dispatcher, function
+from XtManager import DEV_USERS, LOGGER, OWNER_ID, app, dispatcher, function
 
 # <=======================================================================================================>
 

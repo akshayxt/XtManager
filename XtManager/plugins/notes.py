@@ -17,12 +17,12 @@ from telegram.ext import (
 from telegram.helpers import escape_markdown, mention_markdown
 
 import Database.sql.notes_sql as sql
-from Mikobot import DRAGONS, LOGGER, MESSAGE_DUMP, SUPPORT_CHAT, dispatcher, function
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, connection_status
-from Mikobot.plugins.helper_funcs.misc import build_keyboard, revert_buttons
-from Mikobot.plugins.helper_funcs.msg_types import get_note_type
-from Mikobot.plugins.helper_funcs.string_handling import (
+from XtManager import DRAGONS, LOGGER, MESSAGE_DUMP, SUPPORT_CHAT, dispatcher, function
+from XtManager.plugins.disable import DisableAbleCommandHandler
+from XtManager.plugins.helper_funcs.chat_status import check_admin, connection_status
+from XtManager.plugins.helper_funcs.misc import build_keyboard, revert_buttons
+from XtManager.plugins.helper_funcs.msg_types import get_note_type
+from XtManager.plugins.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_to_html,
 )

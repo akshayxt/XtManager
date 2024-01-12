@@ -3,21 +3,21 @@ from sys import exit as exiter
 from pymongo import MongoClient
 from pymongo.errors import PyMongoError
 
-from Mikobot import DB_NAME, LOGGER, MONGO_DB_URI
+from XtManager import DB_NAME, LOGGER, MONGO_DB_URI
 
 try:
-    Mikobot_db_client = MongoClient(MONGO_DB_URI)
+    XtManager_db_client = MongoClient(MONGO_DB_URI)
 except PyMongoError as f:
     LOGGER.error(f"Error in Mongodb: {f}")
     exiter(1)
-Mikobot_main_db = Mikobot_db_client[DB_NAME]
+XtManager_main_db = XtManager_db_client[DB_NAME]
 
 
 class MongoDB:
     """Class for interacting with Bot database."""
 
     def __init__(self, collection) -> None:
-        self.collection = Mikobot_main_db[collection]
+        self.collection = XtManager_main_db[collection]
 
     # Insert one entry into collection
     def insert_one(self, document):
@@ -64,7 +64,7 @@ class MongoDB:
 
     @staticmethod
     def close():
-        return Mikobot_db_client.close()
+        return XtManager_db_client.close()
 
 
 def __connect_first():

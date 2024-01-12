@@ -18,15 +18,15 @@ from telegram.ext import filters as filters_module
 from telegram.helpers import escape_markdown, mention_html
 
 from Database.sql import cust_filters_sql as sql
-from Mikobot import DEV_USERS, DRAGONS, LOGGER, dispatcher, function
-from Mikobot.plugins.connection import connected
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.alternate import send_message, typing_action
-from Mikobot.plugins.helper_funcs.chat_status import check_admin
-from Mikobot.plugins.helper_funcs.extraction import extract_text
-from Mikobot.plugins.helper_funcs.misc import build_keyboard_parser
-from Mikobot.plugins.helper_funcs.msg_types import get_filter_type
-from Mikobot.plugins.helper_funcs.string_handling import (
+from XtManager import DEV_USERS, DRAGONS, LOGGER, dispatcher, function
+from XtManager.plugins.connection import connected
+from XtManager.plugins.disable import DisableAbleCommandHandler
+from XtManager.plugins.helper_funcs.alternate import send_message, typing_action
+from XtManager.plugins.helper_funcs.chat_status import check_admin
+from XtManager.plugins.helper_funcs.extraction import extract_text
+from XtManager.plugins.helper_funcs.misc import build_keyboard_parser
+from XtManager.plugins.helper_funcs.msg_types import get_filter_type
+from XtManager.plugins.helper_funcs.string_handling import (
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,

@@ -9,9 +9,9 @@ from telegram.error import BadRequest
 from telegram.ext import ContextTypes, MessageHandler, filters
 
 from Database.sql import afk_sql as sql
-from Mikobot import LOGGER, function
-from Mikobot.plugins.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
-from Mikobot.plugins.users import get_user_id
+from XtManager import LOGGER, function
+from XtManager.plugins.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from XtManager.plugins.users import get_user_id
 
 # <=======================================================================================================>
 

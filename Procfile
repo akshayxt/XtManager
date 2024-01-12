@@ -1,1 +1,1 @@
-worker: python3 -m Mikobot
+worker: python3 -m XtManager

@@ -12,10 +12,10 @@ from telegram.helpers import mention_html
 
 from Database.sql.approve_sql import is_approved
 from Infamous.karma import START_IMG
-from Mikobot import DEV_USERS, DRAGONS, INFOPIC, OWNER_ID, function
-from Mikobot.__main__ import STATS, USER_INFO
-from Mikobot.plugins.helper_funcs.chat_status import support_plus
-from Mikobot.plugins.users import get_user_id
+from XtManager import DEV_USERS, DRAGONS, INFOPIC, OWNER_ID, function
+from XtManager.__main__ import STATS, USER_INFO
+from XtManager.plugins.helper_funcs.chat_status import support_plus
+from XtManager.plugins.users import get_user_id
 
 # <=======================================================================================================>
 

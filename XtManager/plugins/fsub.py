@@ -4,10 +4,10 @@ from telethon.errors import ChatAdminRequiredError, UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest
 
 from Database.mongodb import fsub_db as db
-from Mikobot import BOT_ID
-from Mikobot import DRAGONS as DEVS
-from Mikobot import OWNER_ID, tbot
-from Mikobot.events import register
+from XtManager import BOT_ID
+from XtManager import DRAGONS as DEVS
+from XtManager import OWNER_ID, tbot
+from XtManager.events import register
 
 # <=======================================================================================================>
 
