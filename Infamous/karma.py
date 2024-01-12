@@ -10,31 +10,33 @@ from XtManager import BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 # <============================================== CONSTANTS =========================================================>
 START_IMG = [
-    "https://telegra.ph/file/40b93b46642124605e678.jpg",
-    "https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg",
-    "https://telegra.ph/file/ed4385c26dcf6de70543f.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
-    "https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg",
-    "https://telegra.ph/file/262c86393730a609cdade.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
+    "https://telegra.ph/file/f3b2776b2766e911383f0.jpg",
+    "https://graph.org/file/08db66a4374af926c9bd3.jpg",
+    "https://graph.org/file/7d9eaee9efe95444fb5e3.jpg",
+    "https://telegra.ph/file/f71f13dc4755349c13a70.jpg",
+    "https://telegra.ph/file/0b99d9768000b9fbc7a28.jpg",
+    "https://telegra.ph/file/6af06601caadb0e88e8fe.jpg",
+    "https://telegra.ph/file/0cd3fdfb1c37e35860167.jpg",
+    "https://telegra.ph/file/0cd3fdfb1c37e35860167.jpg",
+    "https://graph.org/file/a45b214adabcd86401152.jpg",
 ]
 
-HEY_IMG = "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg"
+HEY_IMG = "https://graph.org/file/3740819ccb58317741e8e.jpg"
 
 ALIVE_ANIMATION = [
-    "https://telegra.ph//file/f9e2b9cdd9324fc39970a.mp4",
-    "https://telegra.ph//file/8d4d7d06efebe2f8becd0.mp4",
-    "https://telegra.ph//file/c4c2759c5fc04cefd207a.mp4",
-    "https://telegra.ph//file/b1fa6609b1c4807255927.mp4",
-    "https://telegra.ph//file/f3c7147da6511fbe27c25.mp4",
-    "https://telegra.ph//file/39071b73c02e3ff5945ca.mp4",
-    "https://telegra.ph//file/8d4d7d06efebe2f8becd0.mp4",
-    "https://telegra.ph//file/6efdd8e28756bc2f6e53e.mp4",
+    "https://telegra.ph/file/3274b73a7ba7b94c2bd7e.mp4",
+    "https://telegra.ph/file/2bf047379d9bfa80e0238.mp4",
+    "https://graph.org/file/47b7a9c0a71aabd5aac4d.mp4",
+    "https://graph.org/file/d1837bc46a5ac7a192823.mp4",
+    "https://graph.org/file/95b7f8b32eec311f836c2.mp4",
+    "https://graph.org/file/95b7f8b32eec311f836c2.mp4",
+    "https://graph.org/file/95b7f8b32eec311f836c2.mp4",
+    "https://graph.org/file/788e7f7f5bd24908c219f.mp4",
 ]
 
 FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴍɪᴋᴏ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+PM_START_TEXT = "✨ *ɪ ᴀᴍ Rax, @Team_XT_support ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
 
 START_BTN = [
     [
@@ -71,8 +73,8 @@ GROUP_START_BTN = [
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/Hydra_Updates"),
-        ib(text="SUPPORT", url="https://t.me/hydraXsupport"),
+        ib(text="UPDATES", url="https://t.me/team_x_t_support"),
+        ib(text="SUPPORT", url="https://t.me/team_x_t"),
     ],
     [
         ib(

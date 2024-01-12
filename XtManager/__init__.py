@@ -187,13 +187,15 @@ ALIVE_MSG = """
 """
 
 ALIVE_IMG = [
-    "https://telegra.ph/file/40b93b46642124605e678.jpg",
-    "https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg",
-    "https://telegra.ph/file/ed4385c26dcf6de70543f.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
-    "https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg",
-    "https://telegra.ph/file/262c86393730a609cdade.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
+    "https://telegra.ph/file/f3b2776b2766e911383f0.jpg",
+    "https://graph.org/file/08db66a4374af926c9bd3.jpg",
+    "https://graph.org/file/7d9eaee9efe95444fb5e3.jpg",
+    "https://telegra.ph/file/f71f13dc4755349c13a70.jpg",
+    "https://telegra.ph/file/0b99d9768000b9fbc7a28.jpg",
+    "https://telegra.ph/file/6af06601caadb0e88e8fe.jpg",
+    "https://telegra.ph/file/0cd3fdfb1c37e35860167.jpg",
+    "https://telegra.ph/file/0cd3fdfb1c37e35860167.jpg",
+    "https://graph.org/file/a45b214adabcd86401152.jpg",
 ]
 # <=======================================================================================================>
 

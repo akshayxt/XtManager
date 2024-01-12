@@ -36,7 +36,7 @@ COUPLES_PIC = "https://telegra.ph/file/c6d0c884f559b9ed8a54e.jpg"
 C = """
 ✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
 ➖➖➖➖➖➖➖➖➖➖➖➖
-{} + ( PGM🎀😶 (https://t.me/Chalnayaaaaaarr) + 花火 (https://t.me/zd_sr07) + ゼロツー (https://t.me/wewewe_x) ) = 💞
+{} + ( PGM🎀😶 (https://t.me/team_x_T) + 花火 (https://t.me/zd_sr07) + ゼロツー (https://t.me/Team_xt_suppot) ) = 💞
 ➖➖➖➖➖➖➖➖➖➖➖➖
 𝗡𝗘𝗪 𝗖𝗢𝗨𝗣𝗟𝗘 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 𝗖𝗔𝗡 𝗕𝗘 𝗖𝗛𝗢𝗦𝗘𝗡 𝗔𝗧 12AM {}
 """
