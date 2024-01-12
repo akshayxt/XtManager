@@ -1,4 +1,4 @@
-# https://github.com/Infamous-Hydra/YaeMiko
+# https://github.com/akshayxt/XtManager
 # https://github.com/Team-ProjectCodeX
 # https://t.me/O_okarma
 

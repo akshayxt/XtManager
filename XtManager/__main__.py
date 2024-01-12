@@ -1,4 +1,4 @@
-# https://github.com/Infamous-Hydra/YaeMiko
+# https://github.com/akshayxt/XtManager
 # https://github.com/Team-ProjectCodeX
 
 # <============================================== IMPORTS =========================================================>
@@ -418,7 +418,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer()
 
     if query.data == "git_source":
-        source_link = "https://github.com/Infamous-Hydra/YaeMiko"
+        source_link = "https://github.com/akshayxt/XtManager"
         message_text = (
             f"*Here is the link for the public source repo*:\n\n{source_link}"
         )
@@ -436,7 +436,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 
 async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    source_link = "https://github.com/Infamous-Hydra/YaeMiko"
+    source_link = "https://github.com/akshayxt/XtManager"
     message_text = f"*Here is the link for the public source repo*:\n\n{source_link}"
 
     await context.bot.send_message(
