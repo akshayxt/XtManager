@@ -1,6 +1,6 @@
 # CREATED BY: https://t.me/O_oKarma
 # API CREDITS: @Qewertyy
-# PROVIDED BY: https://github.com/Team-ProjectCodeX
+# PROVIDED BY:  
 
 # <============================================== IMPORTS =========================================================>
 import asyncio

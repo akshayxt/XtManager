@@ -1,8 +1,8 @@
-# SOURCE https://github.com/Team-ProjectCodeX
+# SOURCE  
 # CREATED BY https://t.me/O_okarma
 # PROVIDED BY https://t.me/ProjectCodeX
-# ➥ @MIKO_V2BOT ʏᴏᴜʀ ᴍᴇssᴀɢᴇ @ᴜsᴇʀɴᴀᴍᴇ
-# ➥ @MIKO_V2BOT @ᴜsᴇʀɴᴀᴍᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
+# ➥ @ Rax_V2BOT ʏᴏᴜʀ ᴍᴇssᴀɢᴇ @ᴜsᴇʀɴᴀᴍᴇ
+# ➥ @ Rax_V2BOT @ᴜsᴇʀɴᴀᴍᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
 
 # TURN ON INLINE MODE FOR USE.
 
@@ -174,8 +174,8 @@ __help__ = """
 
 ➠ *Commands:*
 
-» @MIKO_V2BOT your message @username
-» @MIKO_V2BOT @username your message
+» @ Rax_V2BOT your message @username
+» @ Rax_V2BOT @username your message
 """
 
 __mod_name__ = "WHISPER-MSG"

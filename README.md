@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=DC143C&center=true&lines=──+「+YAE+ダ+MIKO+」+──;An+Advanced+Group+Management+Bot.&width=600&height=180">
+  <img src="https://readme-typing-svg.herokuapp.com?color=DC143C&center=true&lines=──+「+YAE+ダ+ Rax+」+──;An+Advanced+Group+Management+Bot.&width=600&height=180">
 </div>
 
 # ⚙️ INSIDER
@@ -20,14 +20,14 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">
-<a href="https://github.com/akshayxt/XtManager/stargazers"><img src="https://img.shields.io/github/stars/Infamous-Hydra/YaeMiko?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/akshayxt/XtManager/network/members"> <img src="https://img.shields.io/github/forks/Infamous-Hydra/YaeMiko?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/akshayxt/XtManager/stargazers"><img src="https://img.shields.io/github/stars/Infamous-Hydra/Yae Rax?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/akshayxt/XtManager/network/members"> <img src="https://img.shields.io/github/forks/Infamous-Hydra/Yae Rax?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/akshayxt/XtManager/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/python-telegram-bot/"> <img src="https://img.shields.io/pypi/v/python-telegram-bot?color=white&label=ptb&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/akshayxt/XtManager/commits/Infamous-Hydra"> <img src="https://img.shields.io/github/last-commit/Infamous-Hydra/YaeMiko?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/akshayxt/XtManager/commits/Infamous-Hydra"> <img src="https://img.shields.io/github/last-commit/Infamous-Hydra/Yae Rax?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
 
 ## ✔️ SETUP
@@ -51,7 +51,7 @@ sudo apt-get install python3-pip -y          # 2. Install Required Packages
 
 sudo pip3 install -U pip          # 3. Upgrade Pip
 
-git clone https://github.com/akshayxt/XtManager && cd YaeMiko           # 4. Clone the Repository
+git clone https://github.com/akshayxt/XtManager && cd Yae Rax           # 4. Clone the Repository
 
 pip3 install -U -r requirements.txt          # 5. Install Required Packages
 
@@ -67,7 +67,7 @@ python3 -m XtManager         # 8. Run the Bot
 
 <h1 align="center">Deploy on Heroku</h1>
 
-<p align="center">Click the button below to deploy YAE ダ MIKO on Heroku and enjoy its enhanced features and user-friendly interface!</p>
+<p align="center">Click the button below to deploy YAE ダ  Rax on Heroku and enjoy its enhanced features and user-friendly interface!</p>
 
 <p align="center">
     <a href="https://heroku.com/deploy?template=https://github.com/akshayxt/XtManager">
@@ -75,14 +75,14 @@ python3 -m XtManager         # 8. Run the Bot
     </a>
 </p>
 
-<h1 align="center"><img src="./.github/yae-miko.gif" /></h1>
+<h1 align="center"><img src="./.github/yae- Rax.gif" /></h1>
 
 ## CREDITS
 The foundation of the application is rooted in the initial efforts undertaken by [PaulSonOfLars](https://github.com/PaulSonOfLars)
 + [lostb053](https://github.com/lostb053) > Anime
 + [TheHamkerCat](https://github.com/TheHamkerCat) > Python-Arq
-+ [ProjectCodeX](https://github.com/Team-ProjectCodeX) > Modules
++ [ProjectCodeX]( ) > Modules
 
 Others in the commit history and files. If anything is missing, feel free to  [![gmail](https://img.shields.io/badge/mail-Here-red?style=for-the-badge&logo=gmail)](mailto:makandu2054@gmail.com)  or submit a pull request.
 
-> Try this bot [@MIKO_V2BOT](https://t.me/MIKO_V2BOT); it's made with this repository for demonstration purposes.
+> Try this bot [@ Rax_V2BOT](https://t.me/ Rax_V2BOT); it's made with this repository for demonstration purposes.

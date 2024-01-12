@@ -1,8 +1,8 @@
 {
-   "name": "Yae Miko",
+   "name": "Yae  Rax",
    "description": "A versatile Telegram Group Management Bot.",
    "logo": "https://telegra.ph/file/4d370b478d90d98709398.jpg",
-   "keywords": ["telegram", "modular", "group", "management", "Miko"],
+   "keywords": ["telegram", "modular", "group", "management", " Rax"],
    "repository": "https://github.com/akshayxt/XtManager",
    "stack": "heroku-22",
    "addons": [
@@ -88,7 +88,7 @@
          "value": "5907205317"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username. Users will reach out for assistance. Example: MyGroupChatUsernameBlah. Avoid pointing to Miko Support to prevent conflicts.",
+         "description": "Your Telegram support group chat username. Users will reach out for assistance. Example: MyGroupChatUsernameBlah. Avoid pointing to  Rax Support to prevent conflicts.",
          "required": true,
          "value": ""
       },
@@ -100,7 +100,7 @@
       "DB_NAME": {
          "description": "Your MongoDB name.",
          "required": true,
-         "value": "MikoDB"
+         "value": " RaxDB"
       },
       "TOKEN": {
          "description": "Bot token obtained from @BotFather on Telegram.",

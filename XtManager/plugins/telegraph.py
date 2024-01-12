@@ -12,7 +12,7 @@ from XtManager.utils.errors import capture_err
 # <=======================================================================================================>
 
 TMP_DOWNLOAD_DIRECTORY = "tg-File/"
-bname = "YaeMiko_Roxbot"  # ᴅᴏɴ'ᴛ ᴇᴅɪᴛ ᴛʜɪᴀ ʟɪɴᴇ
+bname = "Yae Rax_Roxbot"  # ᴅᴏɴ'ᴛ ᴇᴅɪᴛ ᴛʜɪᴀ ʟɪɴᴇ
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=bname)
 auth_url = r["auth_url"]

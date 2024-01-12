@@ -1,5 +1,5 @@
 # https://github.com/akshayxt/XtManager
-# https://github.com/Team-ProjectCodeX
+#  
 # https://t.me/O_okarma
 
 # <============================================== IMPORTS =========================================================>
@@ -47,7 +47,7 @@ START_BTN = [
         InlineKeyboardButton(text="HELP", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
+        InlineKeyboardButton(text="DETAILS", callback_data=" Rax_"),
         InlineKeyboardButton(text="AI", callback_data="ai_handler"),
         InlineKeyboardButton(text="SOURCE", callback_data="git_source"),
     ],
@@ -83,7 +83,7 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-🫧 *Yae-Miko* 🫧
+🫧 *Yae- Rax* 🫧
 
 ☉ *Here, you will find a list of all the available commands.*
 

@@ -1,5 +1,5 @@
 # https://github.com/akshayxt/XtManager
-# https://github.com/Team-ProjectCodeX
+#  
 
 # <============================================== IMPORTS =========================================================>
 from aiohttp import ClientSession

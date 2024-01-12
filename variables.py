@@ -1,5 +1,5 @@
 # https://github.com/akshayxt/XtManager
-# https://github.com/Team-ProjectCodeX
+#  
 
 
 class Config(object):
@@ -28,7 +28,7 @@ class Config(object):
     SUPPORT_ID = -1001629811868
 
     # Database name
-    DB_NAME = "MikoDB"
+    DB_NAME = " RaxDB"
 
     # Bot token
     TOKEN = "2323839365:AAFgfdadqawlfdsM7slOa33eM_ghop"  # Get bot token from @BotFather on Telegram

@@ -1,5 +1,5 @@
 # https://github.com/akshayxt/XtManager
-# https://github.com/Team-ProjectCodeX
+#  
 
 # <============================================== IMPORTS =========================================================>
 import asyncio
@@ -83,7 +83,7 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                         ),
                     ],
                     [
-                        InlineKeyboardButton("» 𝙃𝙊𝙈𝙀 «", callback_data="Miko_back"),
+                        InlineKeyboardButton("» 𝙃𝙊𝙈𝙀 «", callback_data=" Rax_back"),
                     ],
                 ],
             ),
@@ -397,7 +397,7 @@ async def stats_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
         mem = psutil.virtual_memory().percent
         disk = psutil.disk_usage("/").percent
         text = f"""
-𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨@𝙔𝙖𝙚𝙈𝙞𝙠𝙤_𝙍𝙤𝙭𝙗𝙤𝙩
+𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨@Akshay_xt_bot
 ➖➖➖➖➖➖
 UPTIME ➼ {uptime}
 CPU ➼ {cpu}%
@@ -418,13 +418,13 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer()
 
     if query.data == "git_source":
-        source_link = "https://github.com/akshayxt/XtManager"
+        source_link = "https://t.me/Akshat_Xt_Robot/17"
         message_text = (
             f"*Here is the link for the public source repo*:\n\n{source_link}"
         )
 
         # Adding the inline button
-        keyboard = [[InlineKeyboardButton(text="◁", callback_data="Miko_back")]]
+        keyboard = [[InlineKeyboardButton(text="◁", callback_data=" Rax_back")]]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
         await query.edit_message_text(
@@ -447,9 +447,9 @@ async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 
-async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def  Rax_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
-    if query.data == "Miko_":
+    if query.data == " Rax_":
         uptime = get_readable_time((time.time() - StartTime))
         message_text = (
             f"➲ <b>Ai integration.</b>"
@@ -467,7 +467,7 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="ABOUT", callback_data="Miko_support"
+                            text="ABOUT", callback_data=" Rax_support"
                         ),
                         InlineKeyboardButton(text="COMMAND", callback_data="help_back"),
                     ],
@@ -475,12 +475,12 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                         InlineKeyboardButton(text="INSIDER", callback_data="insider_"),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_back"),
+                        InlineKeyboardButton(text="◁", callback_data=" Rax_back"),
                     ],
                 ]
             ),
         )
-    elif query.data == "Miko_support":
+    elif query.data == " Rax_support":
         message_text = (
             "*Our bot leverages SQL, MongoDB, Telegram, MTProto for secure and efficient operations. It resides on a high-speed server, integrates numerous APIs, ensuring quick and versatile responses to user queries.*"
             f"\n\n*If you find any bug in {BOT_NAME} Please report it at the support chat.*"
@@ -500,12 +500,12 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_"),
+                        InlineKeyboardButton(text="◁", callback_data=" Rax_"),
                     ],
                 ]
             ),
         )
-    elif query.data == "Miko_back":
+    elif query.data == " Rax_back":
         first_name = update.effective_user.first_name
         await query.message.edit_text(
             PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
@@ -770,7 +770,7 @@ def main():
     function(CallbackQueryHandler(settings_button, pattern=r"stngs_"))
     function(CommandHandler("repo", repo))
 
-    function(CallbackQueryHandler(Miko_about_callback, pattern=r"Miko_"))
+    function(CallbackQueryHandler( Rax_about_callback, pattern=r" Rax_"))
     function(CallbackQueryHandler(gitsource_callback, pattern=r"git_source"))
     function(CallbackQueryHandler(stats_back, pattern=r"insider_"))
     function(CallbackQueryHandler(ai_handler_callback, pattern=r"ai_handler"))

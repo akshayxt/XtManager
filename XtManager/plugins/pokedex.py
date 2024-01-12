@@ -1,4 +1,4 @@
-# SOURCE https://github.com/Team-ProjectCodeX
+# SOURCE  
 # CREATED BY https://t.me/O_okarma
 # API BY https://www.github.com/SOME-1HING
 # PROVIDED BY https://t.me/ProjectCodeX
