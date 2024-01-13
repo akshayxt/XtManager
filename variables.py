@@ -17,15 +17,15 @@ class Config(object):
     DATABASE_URL = "postgres://ierjlkr:OG4dxzO67Zret3Zii43Hhvujkg89WVry0n9KsHE@karma.db.elephantsql.com/ierjlkr"
 
     # Event logs chat ID and message dump chat ID
-    EVENT_LOGS = -1001629811868
-    MESSAGE_DUMP = -1001629811868
+    EVENT_LOGS = -1002078269704
+    MESSAGE_DUMP = -1002078269704
 
     # MongoDB configuration
-    MONGO_DB_URI = "mongodb+srv://t45:t45@cluster0.plfylpo.mongodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URI = "mongodb+srv://Teamxt01:Teamxt01@cluster0.em6dbsl.mongodb.net/?retryWrites=true&w=majority"
 
     # Support chat and support ID
     SUPPORT_CHAT = "Team_x_t"
-    SUPPORT_ID = --1002078269704
+    SUPPORT_ID = -1002078269704
 
     # Database name
     DB_NAME = " RaxDB"
