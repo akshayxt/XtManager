@@ -64,7 +64,7 @@ async def gpt_chatbot(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not args:
         await context.bot.send_message(
             chat_id=update.effective_chat.id,
-            text="Error: Missing input text after /askgpt command.",
+            text="Error: Missing input text after //gpt command.",
         )
         return
 
@@ -137,5 +137,5 @@ async def upscale_image(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Register the upscale_image command handler
 function(CommandHandler("upscale", upscale_image, block=False))
 function(CommandHandler("palm", palm_chatbot, block=False))
-function(CommandHandler("askgpt", gpt_chatbot, block=False))
+function(CommandHandler("/gpt", gpt_chatbot, block=False))
 # <================================================ END =======================================================>
