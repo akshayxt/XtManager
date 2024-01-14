@@ -2,6 +2,7 @@
 XtManager/*.session
 XtManager/*.session-journal
 Logs.txt
+kangsticker.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
