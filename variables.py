@@ -28,7 +28,7 @@ class Config(object):
     SUPPORT_ID = -1002078269704
 
     # Database name
-    DB_NAME = " RaxDB"
+    DB_NAME = "teamxt02"
 
     # Bot token
     TOKEN = "2323839365:AAFgfdadqawlfdsM7slOa33eM_ghop"  # Get bot token from @BotFather on Telegram
