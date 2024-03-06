@@ -36,7 +36,7 @@ ALIVE_ANIMATION = [
 
 FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ 𝗔𝗡𝗩𝗜冬𝗫𝗧, @Team_XT_support ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ And Music 🚀  *"
+PM_START_TEXT = "✨ *ɪ ᴀᴍ 𝗞𝗔𝗜, @Warzone_123 ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ And Music 🚀  *"
 
 START_BTN = [
     [
@@ -73,8 +73,8 @@ GROUP_START_BTN = [
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/team_x_t_support"),
-        ib(text="SUPPORT", url="https://t.me/team_x_t"),
+        ib(text="UPDATES", url="https://t.me/warzone_123"),
+        ib(text="SUPPORT", url="https://t.me/warzone_123"),
     ],
     [
         ib(
@@ -85,7 +85,7 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-🫧 *Yae- Rax* 🫧
+🫧 *Yae- Kai* 🫧
 
 ☉ *Here, you will find a list of all the available commands.*
 
